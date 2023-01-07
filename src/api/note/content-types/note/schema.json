@@ -4,7 +4,8 @@
   "info": {
     "singularName": "note",
     "pluralName": "notes",
-    "displayName": "Note"
+    "displayName": "Note",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,12 +24,12 @@
     "site_description": {
       "type": "text"
     },
-    "publish": {
-      "type": "boolean",
-      "default": false
-    },
     "note": {
       "type": "text"
+    },
+    "error": {
+      "type": "string",
+      "private": true
     }
   }
 }
